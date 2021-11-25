@@ -5,17 +5,26 @@
   <title>Sophia's Portfolio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <img src="images/logo.svg" alt="logo">
+  <header role="banner">
+    <div class="logo">
+      <img src="images/logo.svg" alt="logo">
+    </div>
 
-    <ul class="navigation">
-      <li><a class="nav-home" href="index.html">Home</a></li>
-      <li><a class="nav-designs" href="designs.html">Designs</a></li>
-      <li><a class="nav-about-contact" href="about-contact.html">About/Contact</a></li>
-    </ul>
+    <div class="nav-links">
+      <nav role="navigation">
+        <ul>
+          <li><a class="nav-home" href="index.html">Home</a></li>
+          <li><a class="nav-designs" href="designs.html">Designs</a></li>
+          <li><a class="nav-about-contact" href="about-contact.html">About/Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
@@ -30,11 +39,21 @@
   </main>
 
   <footer>
-    <ul>
-      <li><a class="social1" href="#">social 1</a></li>
-      <li><a class="social2" href="#">social 2</a></li>
-      <li><a class="social3" href="#">social 3</a></li>
-    </ul>
+    <div class="social-links">
+      <nav role="navigation">
+        <ul>
+          <li><a class="instagram" href="#">
+            <img src="images/insta.svg" width="32px"></img>
+          </a></li>
+          <li><a class="facebook" href="#">
+            <img src="images/facebook.svg" width="32px"></img>
+          </a></li>
+          <li><a class="twitter" href="#">
+            <img src="images/twitter.svg" width="32px"></img>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
 
     <p>Sophia's Porfolio • 2021</p>
   </footer>
