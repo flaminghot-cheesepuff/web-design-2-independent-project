@@ -30,6 +30,11 @@ p {
   margin: 0;
 }
 
+.icon {
+  height: 15px;
+  width: 15px;
+}
+
 .logo {
   height: 15px;
   width: 15px;
