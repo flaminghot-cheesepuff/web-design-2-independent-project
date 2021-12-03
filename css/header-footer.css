@@ -40,6 +40,11 @@ p {
   height: 35px;
 }
 
+.twitter {
+  width: 35px;
+  height: 35px;
+}
+
 h1 {
   font-size: 3.75rem;
   font-weight: bold;
