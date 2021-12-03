@@ -33,8 +33,7 @@ p {
 }
 
 .insta:hover {
-  visibility: hidden;
-  position: relative;
+  fill: #000;
 }
 
 .insta-hover {
