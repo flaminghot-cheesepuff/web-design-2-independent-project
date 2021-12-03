@@ -32,6 +32,18 @@ p {
   margin-left: -12px;
 }
 
+.insta:hover {
+  visibility: hidden;
+}
+
+.insta-hover {
+  visibility: hidden;
+}
+
+.insta-hover:hover {
+  visibility: visible;
+}
+
 h1 {
   font-size: 3.75rem;
   font-weight: bold;
