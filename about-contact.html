@@ -5,44 +5,62 @@
   <title>Sophia's Portfolio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <img src="images/logo.svg" alt="logo">
-
-    <ul class="navigation">
-      <li><a class="nav-home" href="index.html">Home</a></li>
-      <li><a class="nav-designs" href="designs.html">Designs</a></li>
-      <li><a class="nav-about-contact" href="about-contact.html">About/Contact</a></li>
-    </ul>
+  <header role="banner">
+    <div class="logo">
+      <img src="images/logo.svg" alt="logo">
+    </div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="designs.html">Designs</a></li>
+        <li><a href="about-contact.html">About/Contact</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
   </header>
 
-  <main>
+  <main role="main">
     <h1>About Me</h1>
     <p>Blurb about me</p>
 
     <h2>Contact</h2>
     <p>For any questions, concerns, rates or consultations, please fill out this form and I will get in contact with you as soon as possible.</p>
 
-    <li><a class="send" href="#">send</a></li>
-  </main>
+    <ul class="send-btn">
+      <li><a class="send" href="#">send</a></li>
+      <ul>
+      </main>
 
-  <footer>
-    <ul>
-      <li><a class="instagram" href="#">
-        <img src="images/insta.svg" width="32px"></img>
-      </a></li>
-      <li><a class="facebook" href="#">
-        <img src="images/facebook.svg" width="32px"></img>
-      </a></li>
-      <li><a class="twitter" href="#">
-        <img src="images/twitter.svg" width="32px"></img>
-      </a></li>
-    </ul>
+      <footer role="contentinfo">
+        <ul>
+          <li><a class="instagram" href="#" aria-label="Go to instagram page">
+            <i class=icon>
+              <svg><use xlink:href="images/sprite-sheet.svg#insta" width="32" alt="Button to go to the instagram page"></use></svg>
+            </i>
+          </a></li>
+          <li><a class="facebook" href="#" aria-label="Go to facebook page">
+            <i class=icon>
+              <svg><use xlink:href="images/sprite-sheet.svg#facebook" width="32" alt="Button to go to the facebook page"></use></svg>
+            </i>
+          </a></li>
+          <i class=icon>
+            <li><a class="twitter" href="#" aria-label="Go to twitter page">
+              <svg><use xlink:href="images/sprite-sheet.svg#twitter" width="32" alt="Button to go to the twitter page"></use></svg>
+            </i>
+          </a></li>
+        </ul>
 
-    <p>Sophia's Porfolio • 2021</p>
-  </footer>
+        <p>Sophia's Porfolio • 2021</p>
+      </footer>
 
-</body>
-</html>
+    </body>
+    </html>
