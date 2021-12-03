@@ -24,25 +24,12 @@ p {
 }
 
 .icon svg {
-  height: 36px;
+  height: 64px;
   fill: currentColor;
   align-content: center;
   padding: 0;
   margin-top: -6px;
   margin-left: -12px;
-}
-
-.insta:hover {
-  fill: #000;
-}
-
-.insta-hover {
-  visibility: hidden;
-  position: absolute;
-}
-
-.insta-hover:hover {
-  visibility: visible;
 }
 
 h1 {
@@ -130,15 +117,20 @@ footer {
   justify-content: space-between;
   padding-right: 2em;
   padding-left: 2em;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer p {
   color: #ffffff;
+  grid-column: 3;
 }
 
 footer ul {
   display: flex;
   padding: 0;
+  grid-column: 1;
 }
 
 footer li {
