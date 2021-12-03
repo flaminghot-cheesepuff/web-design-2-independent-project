@@ -30,29 +30,14 @@ p {
   margin: 0;
 }
 
-.icon {
-  height: 15px;
-  width: 15px;
+.icon-logo {
+  height: 35px;
+  width: 35px;
 }
 
-.logo {
-  height: 15px;
-  width: 15px;
-}
-
-.instagram {
-  height: 15px;
-  width: 15px;
-}
-
-.twitter {
-  height: 15px;
-  width: 15px;
-}
-
-.facebook {
-  height: 15px;
-  width: 15px;
+.insta {
+  width: 35px;
+  height: 35px;
 }
 
 h1 {
