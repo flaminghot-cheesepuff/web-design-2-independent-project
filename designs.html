@@ -5,6 +5,7 @@
   <title>Sophia's Portfolio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/designs.css" rel="stylesheet">
+  <link href="css/header-footer.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -13,7 +14,9 @@
 
   <header role="banner">
     <div class="logo">
-      <img src="images/logo.svg" alt="logo">
+      <i class=icon>
+        <svg><use xlink:href="images/sprite-sheet.svg#logo" alt="Page Logo"></use></svg>
+      </i>
     </div>
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav role="navigation">
@@ -35,13 +38,19 @@
   <footer role="contentinfo">
     <ul>
       <li><a class="instagram" href="#" aria-label="Go to instagram page">
-        <img src="images/insta.svg" width="32" alt="Button to go to the instagram page">
+        <i class=icon>
+          <svg><use xlink:href="images/sprite-sheet.svg#insta" alt="Button to go to the instagram page"></use></svg>
+        </i>
       </a></li>
       <li><a class="facebook" href="#" aria-label="Go to facebook page">
-        <img src="images/facebook.svg" width="32" alt="Button to go to the facebook page">
+        <i class=icon>
+          <svg><use xlink:href="images/sprite-sheet.svg#facebook" alt="Button to go to the facebook page"></use></svg>
+        </i>
       </a></li>
-      <li><a class="twitter" href="#" aria-label="Go to twitter page">
-        <img src="images/twitter.svg" width="32" alt="Button to go to the twitter page">
+      <i class=icon>
+        <li><a class="twitter" href="#" aria-label="Go to twitter page">
+          <svg><use xlink:href="images/sprite-sheet.svg#twitter" alt="Button to go to the twitter page"></use></svg>
+        </i>
       </a></li>
     </ul>
 
