@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -15,7 +15,7 @@ html {
 
 main {
   height: 1000px;
-  background-color: #ffffff;
+  background-color: #fff;
   display: grid;
   place-items: center;
 }
@@ -31,7 +31,7 @@ main a {
   background-color: #e2c8cd;
   margin: 1em;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   display: block;
 }
 
