@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -23,6 +23,13 @@ main {
 main p {
   text-align: center;
   margin-left: 5em;
+}
+
+main h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* main a {
