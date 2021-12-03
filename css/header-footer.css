@@ -31,7 +31,7 @@ p {
 }
 
 .logo {
-  height: 50px;
+  height: 32px;
 }
 
 h1 {
@@ -138,8 +138,7 @@ footer ul {
 footer li {
   list-style: none;
   margin-right: 1em;
-  height: 32px;
-  font-weight: bold;
+  height: 16px;
 }
 
 /* dropdown */
