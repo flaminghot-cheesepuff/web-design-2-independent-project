@@ -24,13 +24,25 @@ p {
 }
 
 .icon svg {
-  height: 64px;
   fill: currentColor;
   align-content: center;
   padding: 0;
+  margin: 0;
 }
 
 .logo {
+  height: 45px;
+}
+
+.instagram {
+  height: 32px;
+}
+
+.twitter {
+  height: 32px;
+}
+
+.facebook {
   height: 32px;
 }
 
@@ -119,26 +131,22 @@ footer {
   justify-content: space-between;
   padding-right: 2em;
   padding-left: 2em;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 footer p {
   color: #fff;
-  grid-column: 4;
 }
 
 footer ul {
   display: flex;
   padding: 0;
-  grid-column: 1;
 }
 
 footer li {
   list-style: none;
   margin-right: 1em;
-  height: 16px;
 }
 
 /* dropdown */
