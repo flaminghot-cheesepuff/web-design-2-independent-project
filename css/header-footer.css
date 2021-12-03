@@ -23,6 +23,10 @@ p {
   font-size: 1.1875rem;
 }
 
+main {
+  padding-top: 5em;
+}
+
 .icon svg {
   fill: currentColor;
   align-content: center;
