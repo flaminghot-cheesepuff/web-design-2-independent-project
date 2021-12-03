@@ -25,7 +25,6 @@ p {
 
 .icon svg {
   height: 32px;
-  width: 32px;
   fill: currentColor;
   align-content: center;
   padding: 0;
@@ -35,7 +34,6 @@ p {
 
 .icon-logo svg {
   height: 45px;
-  width: 45px;
   fill: currentColor;
   align-content: center;
   padding: 0;
