@@ -27,7 +27,7 @@ p {
   fill: currentColor;
   align-content: center;
   padding: 0;
-  margin: 0;
+  margin-bottom: -.5em;
 }
 
 .instagram .insta {
@@ -36,8 +36,8 @@ p {
 }
 
 .icon-logo {
-  height: 35px;
-  width: 35px;
+  height: 45px;
+  width: 45px;
 }
 
 h1 {
