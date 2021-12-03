@@ -30,19 +30,14 @@ p {
   margin: 0;
 }
 
-.icon .icon-logo {
+svg .insta {
   height: 35px;
   width: 35px;
 }
 
-.insta {
-  width: 35px;
+.icon-logo {
   height: 35px;
-}
-
-.twitter {
   width: 35px;
-  height: 35px;
 }
 
 h1 {
