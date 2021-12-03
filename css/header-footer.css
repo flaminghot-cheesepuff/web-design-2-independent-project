@@ -24,6 +24,7 @@ p {
 }
 
 .icon svg {
+  height: 64px;
   fill: currentColor;
   align-content: center;
   padding: 0;
@@ -124,7 +125,7 @@ footer {
 }
 
 footer p {
-  color: #ffffff;
+  color: #fff;
   grid-column: 4;
 }
 
