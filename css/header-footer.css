@@ -35,6 +35,16 @@ p {
   width: 35px;
 }
 
+.twitter .twit {
+  height: 35px;
+  width: 35px;
+}
+
+.facebook .fb {
+  height: 35px;
+  width: 35px;
+}
+
 .icon-logo {
   height: 45px;
   width: 45px;
