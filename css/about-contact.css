@@ -24,7 +24,7 @@ p {
 }
 
 .icon svg {
-  max-height: 64px;
+  height: 64px;
   fill: currentColor;
   align-content: center;
   padding: 0;
