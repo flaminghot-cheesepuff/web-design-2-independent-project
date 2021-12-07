@@ -70,7 +70,6 @@ html {
 /* modal box end */
 
 main {
-  height: 1000px;
   background-color: #ffffff;
   display: grid;
   place-items: center;
