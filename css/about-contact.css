@@ -120,8 +120,8 @@ main h2 {
 
 .form input[type="submit"]:hover,
 .form input[type="button"]:hover{
-  background-color: #c8a2a9;
-  border: .2rem solid #c8a2a9;
+  background-color: #d6b6be;
+  border: .2rem solid #d6b6be;
 }
 
 .send {
