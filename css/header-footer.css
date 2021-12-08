@@ -85,7 +85,7 @@ li {
 }
 
 header {
-  background: #8e6875;
+  background: #d6b6be;
   display: flex;
   justify-content: center;
   padding: .75em;
@@ -111,7 +111,7 @@ header nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: #8e6875;
+  background: #d6b6be;
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -124,7 +124,7 @@ header nav a {
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
-  color: #fff;
+  color: #47392e;
   font-weight: bold;
   cursor: pointer;
 }
@@ -141,13 +141,13 @@ header nav li {
 }
 
 header nav a:hover {
-  color: #c8a2a9;
+  color: #fff;
 }
 
 
 /* footer */
 footer {
-  background-color: #8e6875;
+  background-color: #d6b6be;
   display: flex;
   justify-content: space-between;
   padding-right: 2em;
@@ -157,7 +157,7 @@ footer {
 }
 
 footer p {
-  color: #fff;
+  color: #47392e;
 }
 
 footer ul {
