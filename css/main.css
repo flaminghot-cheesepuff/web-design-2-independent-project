@@ -45,7 +45,7 @@ main ul {
   display: block;
   padding: 0;
   list-style: none;
-  width: 75%;
+  width: 20em;
 }
 
 main li {
@@ -61,15 +61,28 @@ main h2 {
   text-decoration: none;
 }
 
-
-
-
 @media screen and (min-width: 38em) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em;
+  }
+
+  main ul {
+    width: 20em;
+  }
+
 }
 
-
-
-
-
 @media screen and (min-width: 62.5em) {
+  .designs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5em;
+  }
+
+  main ul {
+    width: 30em;
+  }
+
 }
