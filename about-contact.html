@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Sophia's Portfolio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/about-contact.css" rel="stylesheet">
   <link href="css/header-footer.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,66 +39,69 @@
   </header>
 
   <main role="main" id="main" tabindex="0">
+    <div class="abt">
       <h1>About Me</h1>
       <img src="images/logo.svg" alt="Image of Me">
       <article>
-        <p>Blurb about me</p>
+        <p>Sophia specializes in digital illustration, fine arts, package design, and branding. She is trained in multiple art mediums such as graphite, charcoal, watercolour, acrylic paint, coloured pencils, and oil pastels. The primary digital software she uses is ProCreate, Photoshop, Illustrator, InDesign, and After Effects.</p>
       </article>
+    </div>
 
+    <div class="cntct">
       <h2>Contact</h2>
       <p>For any questions, concerns, rates or consultations, please fill out this form and I will get in contact with you as soon as possible.</p>
 
-      <form class="contact-form">
-        <div class="name">
-          <input type="text" name="name" placeholder="Name*" required>
-        </div>
+      <form class="form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" name="name" maxlength="100">
+            <span>Enter your full name here</span>
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" name="email" maxlength="100">
+            <span>Enter a valid email address</span>
+          </li>
+          <li>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject">
+            <span>Enter the subject of your email</span>
+          </li>
+          <li>
+            <label for="bio">Body</label>
+            <textarea name="text" onkeyup="adjust_textarea(this)"></textarea>
+            <span>Enter the purpose of your email</span>
+          </li>
+          <li>
+            <input class="send" type="submit" value="Send">
+          </li>
+        </ul>
+      </form>
 
-        <div class"email">
-          <input type="email" name="email" placeholder="E-mail*" required>
-        </div>
+    </main>
 
-        <div class"subject">
-          <input type="subject" name="subject" placeholder="Subject*" required>
-        </div>
+    <footer role="contentinfo">
+      <ul>
+        <li>
+          <a class="instagram" href="#" aria-label="Go to instagram page">
+            <svg class="insta"><use xlink:href="images/sprite-sheet.svg#insta"></use></svg>
+          </a>
+        </li>
+        <li>
+          <a class="facebook" href="#" aria-label="Go to facebook page">
+            <svg class="fb"><use xlink:href="images/sprite-sheet.svg#facebook"></use></svg>
+          </a>
+        </li>
+        <li>
+          <a class="twitter" href="#" aria-label="Go to twitter page">
+            <svg class="twit"><use xlink:href="images/sprite-sheet.svg#twitter"></use></svg>
+          </a>
+        </li>
+      </ul>
 
-        <div class"subject">
-          <textarea id=bio name="bio" required>
-          </textarea>
-        </div>
+      <p>Sophia's Porfolio • 2021</p>
+    </footer>
 
-        <div class="send">
-        <button type="submit">send</button>
-      </div>
-    </form>
-
-  <ul class="send-btn">
-    <li><a class="send" href="#">send</a></li>
-  </ul>
-</div>
-
-</main>
-
-<footer role="contentinfo">
-  <ul>
-    <li>
-      <a class="instagram" href="#" aria-label="Go to instagram page">
-        <svg class="insta"><use xlink:href="images/sprite-sheet.svg#insta"></use></svg>
-      </a>
-    </li>
-    <li>
-      <a class="facebook" href="#" aria-label="Go to facebook page">
-        <svg class="fb"><use xlink:href="images/sprite-sheet.svg#facebook"></use></svg>
-      </a>
-    </li>
-    <li>
-      <a class="twitter" href="#" aria-label="Go to twitter page">
-        <svg class="twit"><use xlink:href="images/sprite-sheet.svg#twitter"></use></svg>
-      </a>
-    </li>
-  </ul>
-
-  <p>Sophia's Porfolio • 2021</p>
-</footer>
-
-</body>
-</html>
+  </body>
+  </html>

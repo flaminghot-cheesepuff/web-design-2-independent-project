@@ -36,7 +36,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-color: #f7f0f0;
+  background-color: #fcfafa;
 }
 
 p {
@@ -141,7 +141,7 @@ header nav li {
 }
 
 header nav a:hover {
-  color: #734c56;
+  color: #c8a2a9;
 }
 
 

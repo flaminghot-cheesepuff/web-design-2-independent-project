@@ -15,11 +15,12 @@ html {
 
 main {
   align-items: center;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 main p {
   text-align: center;
-  margin-left: 5em;
 }
 
 main h2 {
@@ -29,49 +30,116 @@ main h2 {
   text-decoration: none;
 }
 
-
-
-/* main a {
-  border: .2rem solid #e2c8cd;
-  border-radius: 1.2rem;
-  padding: .5em 1em .6em;
-  background-color: #e2c8cd;
-  margin: 1em;
-  text-decoration: none;
-  color: #fff;
-  display: block;
+.form{
+	max-width:400px;
+	margin:50px auto;
+	border-radius:.2rem;
+	padding:20px;
 }
 
-main a:hover {
+.form ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.form li{
+	display: block;
+	padding: 9px;
+	border:1px solid #af8b96;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+
+.form li:last-child{
+	border:none;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.form li > label{
+	display: block;
+	float: left;
+	margin-top: -19px;
+	background: #fcfafa;
+	height: 19px;
+	padding: 2px 5px 2px 5px;
+	color: #47392e;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea,
+.form select
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus,
+.form select:focus
+{
+}
+.form li > span{
+	background: #af8b96;
+	display: block;
+	padding: 3px;
+	margin: 0 -9px -9px -9px;
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+}
+
+.form textarea{
+	resize:none;
+}
+
+.form input[type="submit"],
+.form input[type="button"]{
+  border: .2rem solid #af8b96;
+	background: #af8b96;
+  padding: .5em 1em .6em;
+	border-bottom: 3px solid #af8b96;
+	border-radius: 1.2rem;
+	color: #fff;
+  width: 7em;
+}
+
+.form input[type="submit"]:hover,
+.form input[type="button"]:hover{
   background-color: #c8a2a9;
   border: .2rem solid #c8a2a9;
 }
 
-main ul {
-  text-align: center;
-  display: block;
-  padding: 0;
-  list-style: none;
-  width: 75%;
-}
-
-main li {
-  list-style: none;
+.send {
+  font-size: 1.1875rem;
   font-weight: bold;
-  margin-bottom: 2em;
 }
-
-*/
-
-
-
 
 @media screen and (min-width: 38em) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5em;
+    }
 }
 
-
-
-
-
 @media screen and (min-width: 62.5em) {
+  main {
+    padding-left: 15em;
+    padding-right: 15em;
+    }
 }

@@ -15,7 +15,6 @@ html {
 
 main {
   height: 1000px;
-  background-color: #fff;
   display: grid;
   place-items: center;
 }
