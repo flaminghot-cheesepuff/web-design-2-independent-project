@@ -82,6 +82,8 @@ main h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
   }
 
   main ul {
