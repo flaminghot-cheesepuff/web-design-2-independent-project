@@ -230,7 +230,7 @@ html {
 /* modal box end */
 
 /* modal box */
-.modal-window-vh {
+.modal-window-eb {
   position: fixed;
   background-color: rgba(200, 200, 200, 0.75);
   top: 0;
@@ -245,12 +245,12 @@ html {
   transition: all 0.3s;
 }
 
-.modal-window-vh:target {
+.modal-window-eb:target {
   opacity: 1;
   pointer-events: auto;
 }
 
-.modal-window-vh>div {
+.modal-window-eb>div {
   width: 400px;
   position: relative;
   margin: 10% auto;
@@ -259,11 +259,11 @@ html {
   color: #444;
 }
 
-.modal-window-vh header {
+.modal-window-eb header {
   font-weight: bold;
 }
 
-.modal-window-vh h2 {
+.modal-window-eb h2 {
   font-size: 150%;
   margin: 0 0 15px;
 }
