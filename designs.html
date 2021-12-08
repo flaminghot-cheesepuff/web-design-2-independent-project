@@ -12,6 +12,11 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">skip to the main content</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
+  </ul>
+
   <header role="banner">
     <div class="logo">
       <i class="icon">
@@ -19,7 +24,7 @@
       </i>
     </div>
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <nav role="navigation">
+    <nav role="navigation" id="nav">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="designs.html">Designs</a></li>
@@ -31,7 +36,7 @@
     </label>
   </header>
 
-  <main role="main">
+  <main role="main" id="main">
     <h1>My Designs</h1>
 
     <div class="first-three">
@@ -81,82 +86,82 @@
         </div>
       </div>
 
+    </div>
+
+    <div class="last-three">
+
+      <a href="#open-modal">
+        <img src="images/designs/poster-b-w.png" alt="">
+        <h2 class="annual-rep-title">Annual Report</h2>
+      </a>
+      <div id="open-modal" class="modal-window">
+        <div>
+          <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+          <h2>Annual Report</h2>
+          <div>
+            <img src="images/designs/poster-big.png" alt="">
+            <p>Assignment for my Typography class in the second semester of my first year.</p>
+          </div>
+        </div>
       </div>
 
-      <div class="last-three">
-
-        <a href="#open-modal">
-          <img src="images/designs/poster-b-w.png" alt="">
-          <h2 class="annual-rep-title">Annual Report</h2>
-        </a>
-        <div id="open-modal" class="modal-window">
+      <a href="#open-modal">
+        <img src="images/designs/poster-b-w.png" alt="">
+        <h2 class="rock-title">Rocking Horse Brochure Layout</h2>
+      </a>
+      <div id="open-modal" class="modal-window">
+        <div>
+          <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+          <h2>Rocking Horse Brochure Layout</h2>
           <div>
-            <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
-            <h2>Annual Report</h2>
-            <div>
-              <img src="images/designs/poster-big.png" alt="">
-              <p>Assignment for my Typography class in the second semester of my first year.</p>
-            </div>
+            <img src="images/designs/poster-big.png" alt="">
+            <p>Assignment for my Graphic Design class in the second semester of my first year.</p>
           </div>
         </div>
-
-        <a href="#open-modal">
-          <img src="images/designs/poster-b-w.png" alt="">
-          <h2 class="rock-title">Rocking Horse Brochure Layout</h2>
-        </a>
-        <div id="open-modal" class="modal-window">
-          <div>
-            <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
-            <h2>Rocking Horse Brochure Layout</h2>
-            <div>
-              <img src="images/designs/poster-big.png" alt="">
-              <p>Assignment for my Graphic Design class in the second semester of my first year.</p>
-            </div>
-          </div>
-        </div>
-
-        <a href="#open-modal">
-          <img src="images/designs/poster-b-w.png" alt="">
-          <h2 class="harmony-title">Visual Harmony Layout</h2>
-        </a>
-        <div id="open-modal" class="modal-window">
-          <div>
-            <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
-            <h2>Visual Harmony Layout</h2>
-            <div>
-              <img src="images/designs/poster-big.png" alt="">
-              <p>Assignment for my Graphic Design class in the second semester of my first year.</p>
-            </div>
-          </div>
-        </div>
-
       </div>
 
-    </section>
+      <a href="#open-modal">
+        <img src="images/designs/poster-b-w.png" alt="">
+        <h2 class="harmony-title">Visual Harmony Layout</h2>
+      </a>
+      <div id="open-modal" class="modal-window">
+        <div>
+          <a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+          <h2>Visual Harmony Layout</h2>
+          <div>
+            <img src="images/designs/poster-big.png" alt="">
+            <p>Assignment for my Graphic Design class in the second semester of my first year.</p>
+          </div>
+        </div>
+      </div>
 
-  </main>
+    </div>
 
-  <footer role="contentinfo">
-    <ul>
-      <li>
-        <a class="instagram" href="#" aria-label="Go to instagram page">
-          <svg class="insta"><use xlink:href="images/sprite-sheet.svg#insta"></use></svg>
-        </a>
-      </li>
-      <li>
-        <a class="facebook" href="#" aria-label="Go to facebook page">
-          <svg class="fb"><use xlink:href="images/sprite-sheet.svg#facebook"></use></svg>
-        </a>
-      </li>
-      <li>
-        <a class="twitter" href="#" aria-label="Go to twitter page">
-          <svg class="twit"><use xlink:href="images/sprite-sheet.svg#twitter"></use></svg>
-        </a>
-      </li>
-    </ul>
+  </section>
 
-    <p>Sophia's Porfolio • 2021</p>
-  </footer>
+</main>
+
+<footer role="contentinfo">
+  <ul>
+    <li>
+      <a class="instagram" href="#" aria-label="Go to instagram page">
+        <svg class="insta"><use xlink:href="images/sprite-sheet.svg#insta"></use></svg>
+      </a>
+    </li>
+    <li>
+      <a class="facebook" href="#" aria-label="Go to facebook page">
+        <svg class="fb"><use xlink:href="images/sprite-sheet.svg#facebook"></use></svg>
+      </a>
+    </li>
+    <li>
+      <a class="twitter" href="#" aria-label="Go to twitter page">
+        <svg class="twit"><use xlink:href="images/sprite-sheet.svg#twitter"></use></svg>
+      </a>
+    </li>
+  </ul>
+
+  <p>Sophia's Porfolio • 2021</p>
+</footer>
 
 </body>
 </html>
