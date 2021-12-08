@@ -25,10 +25,10 @@ main p {
 }
 
 main a {
-  border: .2rem solid #e2c8cd;
+  border: .2rem solid #af8b96;
   border-radius: 1.2rem;
   padding: .5em 1em .6em;
-  background-color: #e2c8cd;
+  background-color: #af8b96;
   margin: 1em;
   text-decoration: none;
   color: #fff;
@@ -62,6 +62,7 @@ main h2 {
 }
 
 @media screen and (min-width: 38em) {
+
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -75,6 +76,7 @@ main h2 {
 }
 
 @media screen and (min-width: 62.5em) {
+
   .designs {
     display: grid;
     grid-template-columns: 1fr 1fr;

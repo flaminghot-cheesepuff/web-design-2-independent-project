@@ -14,9 +14,7 @@ html {
 }
 
 main {
-  background-color: #ffffff;
-  display: grid;
-  place-items: center;
+  align-items: center;
 }
 
 main p {
