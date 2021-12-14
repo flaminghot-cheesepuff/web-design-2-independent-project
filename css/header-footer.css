@@ -173,6 +173,11 @@ footer li {
 
 /* dropdown */
 
+.nav-toggle-label,
+.nav-toggle {
+  display: none;
+}
+
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
