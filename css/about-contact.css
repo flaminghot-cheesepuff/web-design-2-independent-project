@@ -30,20 +30,26 @@ main h2 {
   text-decoration: none;
 }
 
-.form{
+img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
 	max-width:400px;
 	margin:50px auto;
 	border-radius:.2rem;
 	padding:20px;
 }
 
-.form ul{
+.form ul {
 	list-style:none;
 	padding:0;
 	margin:0;
 }
 
-.form li{
+.form li {
 	display: block;
 	padding: 9px;
 	border:1px solid #af8b96;
@@ -51,13 +57,13 @@ main h2 {
 	border-radius: 3px;
 }
 
-.form li:last-child{
+.form li:last-child {
 	border:none;
 	margin-bottom: 0px;
 	text-align: center;
 }
 
-.form li > label{
+.form li > label {
 	display: block;
 	float: left;
 	margin-top: -19px;
@@ -72,8 +78,7 @@ main h2 {
 .form input[type="text"],
 .form input[type="email"],
 .form textarea,
-.form select
-{
+.form select {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -87,13 +92,7 @@ main h2 {
 	padding: 0;
 }
 
-.form input[type="text"]:focus,
-.form input[type="email"]:focus,
-.form textarea:focus,
-.form select:focus
-{
-}
-.form li > span{
+.form li > span {
 	background: #af8b96;
 	display: block;
 	padding: 3px;
@@ -103,12 +102,12 @@ main h2 {
 	font-size: 11px;
 }
 
-.form textarea{
+.form textarea {
 	resize:none;
 }
 
 .form input[type="submit"],
-.form input[type="button"]{
+.form input[type="button"] {
   border: .2rem solid #af8b96;
 	background: #af8b96;
   padding: .5em 1em .6em;
@@ -119,7 +118,7 @@ main h2 {
 }
 
 .form input[type="submit"]:hover,
-.form input[type="button"]:hover{
+.form input[type="button"]:hover {
   background-color: #d6b6be;
   border: .2rem solid #d6b6be;
 }
